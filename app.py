@@ -1,6 +1,12 @@
 from flask import Flask, request, jsonify, render_template
 import requests
-from secret_api_key import API_KEY
+# from secret_api_key import API_KEY
+import os
+from dotenv import load_dotenv
+
+load_dotenv()  # Load environment variables from.env file
+
+API_KEY = os.getenv("API_KEY")
 
 app = Flask(__name__)
 app.app_context().push()
