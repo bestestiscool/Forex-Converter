@@ -1,0 +1,23 @@
+venv/
+
+*.pyc
+__pycache__/
+
+instance/
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+dist/
+build/
+*.egg-info/
+
+# Add package-lock.json to the list
+package-lock.json
+
+package.json
+
+nodes_modules
+
+secet_api_key
