@@ -23,3 +23,4 @@ package.json
 nodes_modules
 
 secet_api_key
+.vercel
